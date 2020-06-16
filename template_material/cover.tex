@@ -1,0 +1,76 @@
+\thispagestyle{empty}
+\pagenumbering{roman}
+\begin{tikzpicture}[overlay,remember picture]
+    
+    % colored rectangle
+    \fill[TH] (current page.north west) rectangle ++(\paperwidth,-80mm);
+    
+    % Title and authors
+    \draw (current page.north west) ++ (138mm,-72mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+            \fontsize{30pt}{33pt}\selectfont
+            \textcolor{white}{\textbf{\Articletitle}} \\ \vspace{8mm}   
+            \fontsize{14pt}{16pt}\selectfont 
+            \textcolor{white}{\MakeUppercase{\textbf{\Articleauthors}}}
+        };
+    
+    % Year
+    \fontsize{24pt}{29pt}\selectfont
+    \draw (current page.north west) ++ (148mm,-72mm) node[name=righttextbox,above right]{
+        \textcolor{white}{\Articleedition}
+        };
+    
+    % vertical ligne
+    \draw (current page.north west) ++ (143mm,-85mm) node[name=bottomedot]{};
+    \draw[white,very thick] (lefttextbox.north east)++(5mm,2mm) -- 
+    (bottomedot);
+    
+    %---------------- editable graphical elements ----------------
+    
+    % cover picture
+    \draw (current page.north) ++ (0mm,-79mm) node[name=cover_picture,below]{%
+        \includegraphics[width=21cm,height=19cm]{%
+            template_material/PicturesFiles/coverpage_photo.PNG}
+        };
+
+    % co edition logo 1/1
+    % \draw (current page.south west) ++ (38mm,12mm) node[name=coeditorlogo1,  right]{%
+    %    \includegraphics[height=23mm]{template_material/PicturesFiles/co-edition-logo-1.jpg}
+    % }; 
+     
+    % co edition logo 1/2
+     \draw (current page.south west) ++ (1mm,12mm) node[name=coeditorlogoA,  right]{%
+        \includegraphics[height=23mm]{%
+            template_material/PicturesFiles/co-edition-logo-1.jpg}
+        }; 
+     
+    % co edition logo 2/2
+     \draw (current page.south west) ++ (25mm,12mm) node[name=coeditorlogoB,  right]{%
+        \includegraphics[height=18mm]{%
+            template_material/PicturesFiles/co-edition-logo-2.png}
+        }; 
+     
+    %---------------- end of the editable graphical elements ----------------
+     
+    % eurostat logo
+     \draw (current page.south west) ++ (143mm,12mm) node[name=logo,  right]{\includegraphics[width=65mm]{template_material/PicturesFiles/Logo_RGB-POS.png}};  
+     
+     % vertical ligne
+    \draw (current page.south west) ++ (143mm,19mm) node[name=abovedotlogo]{};
+    \draw (current page.south west) ++ (143mm,-5mm) node[name=botomedotlogo]{};
+    \draw[gray65K,very thick] (abovedotlogo) -- (botomedotlogo);
+    
+    % collection
+    \draw (current page.south west) ++ (138mm,9mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+            \fontsize{10pt}{0pt}\selectfont
+            \textcolor{gray65K}{STATISTICAL}
+    };
+    \draw (current page.south west) ++ (138mm,6.3mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+        \fontsize{10pt}{0pt}\selectfont
+        \textcolor{gray65K}{PAPERS}
+    };
+    \draw (current page.south west) ++ (126mm,6.3mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+        \fontsize{10pt}{0pt}\selectfont
+        \textcolor{gray65K}{WORKING}
+    };
+\end{tikzpicture}
+\restoregeometry

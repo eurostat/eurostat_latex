@@ -1,0 +1,25 @@
+\thispagestyle{empty}
+\pagenumbering{arabic}
+\begin{tikzpicture}[overlay,remember picture]
+    
+    % Title and authors
+    \draw (current page.north west) ++ (138mm,-72mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+            \fontsize{30pt}{33pt}\selectfont
+            \textcolor{gray65K}{\Articletitle} \\ \vspace{8mm}   
+            \fontsize{14pt}{16pt}\selectfont 
+            \textcolor{gray65K}{\MakeUppercase{\textbf{\Articleauthors}}}
+        };
+    
+    % Year
+    \fontsize{24pt}{29pt}\selectfont
+    \draw (current page.north west) ++ (148mm,-72mm) node[name=righttextbox,above right]{
+        \textcolor{gray65K}{\Articleedition}
+        };
+    
+    % vertical ligne
+    \draw (current page.north west) ++ (143mm,-85mm) node[name=bottomedot]{};
+    \draw[gray65K,very thick] (lefttextbox.north east)++(5mm,4mm) -- 
+    (bottomedot);
+    
+\end{tikzpicture}
+\restoregeometry
