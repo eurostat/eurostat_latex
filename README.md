@@ -1,4 +1,4 @@
-# eurostat_latex
+# Eurostat \{LaTeX} stylesheet
 LaTeX stylesheet for Eurostat Statistical Working papers
 
 The main file is main.tex
