@@ -9,5 +9,5 @@ Usage
  3. Compile using XeLaTeX in order to have the correct fonts
 
 
-The [eurostat_latex_master.pdf](eurostat_latex_master.pdf) is a compiled example using Overleaf.
+The [eurostat_latex_master.pdf](eurostat_latex_master.pdf) is a compiled example using Overleaf. In that example you can find further instructions how to use this template, and some simple scenarios.
 
