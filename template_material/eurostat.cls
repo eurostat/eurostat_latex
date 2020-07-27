@@ -45,7 +45,8 @@
 \hypersetup{
     colorlinks=true,
     urlcolor=blue,
-    linkcolor=black
+    linkcolor=black,
+    citecolor=grey
 }
 \renewcommand\UrlFont{\color{blue}\rmfamily} % url format
 
