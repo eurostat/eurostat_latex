@@ -46,7 +46,7 @@
     colorlinks=true,
     urlcolor=blue,
     linkcolor=black,
-    citecolor=grey
+    citecolor=gray
 }
 \renewcommand\UrlFont{\color{blue}\rmfamily} % url format
 
