@@ -4,7 +4,7 @@ eurostat_latex
 Eurostat `LaTeX` stylesheet/template for publications.
 ---
 
-This repository provides a `LaTeX` stylesheet for creating _Eurostat_ [Statistical working papers](https://ec.europa.eu/eurostat/publications/statistical-working-papers) (SWP).
+This repository provides a `LaTeX` stylesheet for creating _Eurostat_ [**Statistical working papers**](https://ec.europa.eu/eurostat/publications/statistical-working-papers) (SWP).
 
 **Description**
 
