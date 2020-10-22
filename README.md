@@ -24,7 +24,7 @@ The document [_eurostat_latex_master.pdf_](eurostat_latex_master.pdf) is a compi
 <table>
 <tr width="400px" height="400px" text-align="center" vertical-align="middle">
 <td>
-<kbd><img src="examples/example-latex-estat-swp-frontpage.png" alt="Front page of Eurostat SWP paper" max-height="70%" max-width="70%"></kbd>
+<kbd><img src="docs/example-latex-estat-swp-frontpage.png" alt="Front page of Eurostat SWP paper" max-height="70%" max-width="70%"></kbd>
 </td>
 </tr>
 </table>
