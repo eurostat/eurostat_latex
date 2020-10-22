@@ -30,5 +30,3 @@ The document [_eurostat_latex_master.pdf_](eurostat_latex_master.pdf) is a compi
 **See also**
 
 * _Eurostat_ [layout style/template](https://github.com/eurostat/beamslide) for `LaTeX` beamer presentation.
-
-* _Eurostat_ [LaTeX stylesheet](https://github.com/eurostat/eurostat_latex) for creating Statistical Working papers.
