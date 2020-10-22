@@ -1,5 +1,5 @@
-Eurostat LaTeX stylesheet
-=========================
+eurostat_latex
+==============
 
 Eurostat `LaTeX` stylesheet/template for publications.
 ---
