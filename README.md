@@ -22,7 +22,7 @@ The SWPs collection follows the layout rules described in the [**Eurostat graphi
 The document [_eurostat_latex_master.pdf_](eurostat_latex_master.pdf) is a compiled example using [`Overleaf`](https://www.overleaf.com/learn/latex/XeLaTeX). In the related `LaTeX` source file, you can find further instructions how to use this template, and some simple scenarios.
 
 <table>
-<tr width="400px" height="400px" text-align="center" vertical-align="middle">
+<tr width="150px" height="200px" text-align="center" vertical-align="middle">
 <td>
 <kbd><img src="docs/example-latex-estat-swp-frontpage.png" alt="Front page of Eurostat SWP paper" max-height="70%" max-width="70%"></kbd>
 </td>
